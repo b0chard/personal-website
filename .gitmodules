@@ -7,3 +7,6 @@
 [submodule "projects/temperature-converter"]
 	path = projects/temperature-converter
 	url = https://github.com/b0chard/temperature-converter.git
+[submodule "projects/drum-ka-dum"]
+	path = projects/drum-ka-dum
+	url = https://github.com/b0chard/drum-ka-dum.git
