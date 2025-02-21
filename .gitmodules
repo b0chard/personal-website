@@ -10,3 +10,6 @@
 [submodule "projects/drum-ka-dum"]
 	path = projects/drum-ka-dum
 	url = https://github.com/b0chard/drum-ka-dum.git
+[submodule "projects/tick-clock"]
+	path = projects/tick-clock
+	url = https://github.com/b0chard/tick-clock.git
