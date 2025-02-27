@@ -13,3 +13,6 @@
 [submodule "projects/tick-clock"]
 	path = projects/tick-clock
 	url = https://github.com/b0chard/tick-clock.git
+[submodule "projects/simple-cash-register"]
+	path = projects/simple-cash-register
+	url = https://github.com/b0chard/simple-cash-register.git
