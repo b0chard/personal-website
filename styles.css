@@ -1,0 +1,16 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-image: url(/assets/backgrounds/5021.png);
+  background-position: center;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+}
