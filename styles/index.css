@@ -35,13 +35,14 @@ header {
 .navlist {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 .navlink {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   list-style: none;
-  padding: 4px 7px;
+  padding: 2px 4px;
   background-color: #dbdbdb;
   border: 7px outset #000000;
   border-radius: 8px;
