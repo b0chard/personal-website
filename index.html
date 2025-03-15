@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KJSJGBKZ');</script>
-  <!-- End Google Tag Manager -->
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="bochard">
   <meta name="description" content="17-year old web developer.">
   <meta name="robots" content="index, follow">
   <title>bochard - web developer</title>
-  <link rel="icon" type="image/ico" href="/assets/icons/favicon.ico">
+  <link rel="icon" type="image/ico" href="/images/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="bochard - web developer">
   <meta property="og:description" content="I code on paper and create websites out of it.">
-  <meta property="og:image" content="/assets/pfp/profile.jpg">
+  <meta property="og:image" content="/images/">
   <meta property="og:url" content="https://tenkyuu.dev">
 
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
   <header>
-    <img src="./assets/gifs/dwelcome.gif" alt="doraemon hello gif">
-    <img src="./assets/gifs/iconwelcomemovetree.gif" alt="tree with welcome text gif">
+    <img src="./images/gifs/doraemon.gif" alt="doraemon hello gif" width="100">
+    <img src="./images/gifs/welcomemovetree.gif" alt="tree with welcome text gif" width="400">
     <h1>welcome to my website!</h1>
+    <img src="./images/gifs/homepageburning.gif" alt="under construction text gif" width="200" class="page-path">
+    <nav class="headernav">
+      <ul class="navlist">
+        <li class="navlink"><a href="./index.html">home</a></li>
+        <li class="navlink"><a href="./about.html">about</a></li>
+        <li class="navlink"><a href="./projects">projects</a></li>
+        <li class="navlink"><a href="./links.html">links</a></li>
+        <li class="navlink"><a href="./sitemap.html">sitemap</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
-    <img src="./assets/images/under-construction-text.gif" alt="under construction text gif">
-    <img src="./assets/images/under-construction.gif" alt="under construction image">
+    <img src="./images/construction/underconstructionimg.gif" alt="under construction image" width="200">
+    <img src="./images/construction/underconstructiontxt.gif" alt="under construction text gif" width="300">
     <p>there's nothing here much right now, I'm still building the site. I'll just eat dinner.</p>
+    <section>
+      <h2 class="sectiontitle">my projects</h2>
+      <table class="projectstable">
+        <tr>
+          <th>name</th>
+          <th>links</th>
+          <th>date</th>
+          <th>source code</th>
+        </tr>
+        <tbody>
+          <td>palindrome checker</td>
+          <td><a href="./projects/palindrome-checker">click here</a></td>
+          <td>i forgot</td>
+          <td><a href="https://github.com/b0chard/palindrome-checker.git">view</a></td>
+        </tbody>
+      </table>
+    </section>
   </main>
+
+  <footer></footer>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
