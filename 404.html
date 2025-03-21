@@ -5,61 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="rain (ametoresu)">
   <link rel="icon" type="image/ico" href="/assets/icons/favicon.ico">
-  <title>404 Not Found</title>
-  <style>
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
+  <title>page doesn't exist!!</title>
+<style>
+*, ::before, ::after {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+  background-image: url(/images/background.png);
+  background-position: center;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  font-family: serif;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
 }
-h1 {
-  font-size: 2.7rem;
-}
-img {
-  width: 350px;
-  margin: 3rem 1rem 1rem;
-}
-.txt-ctn {
-  padding: 0.4rem;
+header {
   text-align: center;
 }
-p, a {
-  font-size: 1.7rem;
+.headernav {
+  margin: 10px auto;
+  width: fit-content;
 }
-
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-  img {
-    width: 500px;
-  }
-  p, a{
-    font-size: 2.2rem;
-  }
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.navlink {
+  font-size: 18px;
+  list-style: none;
+  padding: 2px 4px;
+  background-color: #dbdbdb;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  text-shadow: 1px 1px #000000;
+  cursor: pointer;
+}
+header {
+  text-align: center;
+}
+.headernav {
+  margin: 10px auto;
+  width: fit-content;
+}
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.navlink {
+  font-size: 18px;
+  list-style: none;
+  padding: 2px 4px;
+  background-color: #dbdbdb;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  text-shadow: 1px 1px #000000;
+  cursor: pointer;
+}
+main {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
 }
   </style>
 </head>
 <body>
-  <img src="/assets/images/404.gif"
-       alt="error 404."
-       width="350">
-  <div class="txt-ctn">
+  <header>
     <h1>Uh ohhhh!</h1>
-    <p>The requested URL was not found on this server.</p>
-    <a href="https://tenkyuu.dev">Back to Home</a>
-  </div>
+    <nav class="headernav">
+      <ul class="navlist">
+        <li class="navlink"><a href="./index.html">homepage</a></li>
+        <li class="navlink"><a href="./projects.html">stuffs i made</a></li>
+        <li class="navlink"><a href="./links.html">useful links</a></li>
+        <li class="navlink"><a href="./sitemap.html">sitemap</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>There's no such link like that on my site. are you looking for easter eggs?!</p>
+    <a href="https://tenkyuu.dev/"><img src="./images/gifs/backhomepage.gif" width="300"></a>
+  </main>
+  <footer></footer>
 </body>
 </html>
