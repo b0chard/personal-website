@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/ico" href="/images/">
+
+  <title>bochard's website</title>
   <meta name="description" content="i code on paper and create websites out of it.">
-  <meta name="robots" content="index, follow">
-  <title>bochard's website'</title>
-  <link rel="icon" type="image/ico" href="/images/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="bochard's website'">
+  <meta property="og:title" content="bochard's website">
   <meta property="og:description" content="i code on paper and create websites out of it.">
   <meta property="og:image" content="/images/">
-  <meta property="og:url" content="https://tenkyuu.dev/">
 
-  <!-- styles -->
-  <link rel="stylesheet" href="./styles/root.css">
-  <link rel="stylesheet" href="./styles/index.css">
+<style>
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+html {
+  background-image: url(/images/background.png);
+  background-position: center;
+}
+body {
+  font-family: serif;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;  
+  background-color: #a6c5ff;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+header {
+  text-align: center;
+}
+.headernav {
+  margin: 10px auto;
+  width: fit-content;
+}
+.headernav > ul {
+  width: 100%;
+}
+.headernav li {
+  font-size: 18px;
+  list-style: none;
+  padding: 2px 4px;
+  background-color: #dbdbdb;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  text-shadow: 1px 1px #000000;
+  cursor: pointer;
+  display: inline-block;
+}
+main {
+  text-align: center;
+}
+section {
+  margin-top: 40px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+table, th, td {
+  border: 1px solid #000000;
+}
+th, td {
+  font-size: 18px;
+  padding: 6px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+</style>
 </head>
 <body>
-  <audio src="./audios/background/rejectedworld.mp3" autoplay loop></audio>
+  <!-- <audio src="./audios/background/rejectedworld.mp3" autoplay loop></audio> -->
   <header>
     <img src="./images/gifs/doraemon.gif" alt="doraemon hello gif" width="100">
     <img src="./images/gifs/welcomemovetree.gif" alt="tree with welcome text gif" width="300">
     <h1>welcome to my website!</h1>
-    <img src="./images/gifs/homepageburning.gif" alt="under construction text gif" width="350" class="page-path">
+    <img src="./images/gifs/homepageburning.gif" alt="under construction text gif" width="300" class="page-path">
     <nav class="headernav">
-      <ul class="navlist">
-        <li class="navlink"><a href="./index.html">homepage</a></li>
-        <li class="navlink"><a href="./projects.html">stuffs i made</a></li>
-        <li class="navlink"><a href="./links.html">useful links</a></li>
-        <li class="navlink"><a href="./sitemap.html">sitemap</a></li>
+      <ul>
+        <li><a href="./index.html">homepage</a></li>
+        <li><a href="./links.html">useful links</a></li>
+        <li><a href="./sitemap.html">sitemap</a></li>
       </ul>
     </nav>
   </header>
@@ -37,12 +107,12 @@
   <main>
     <img src="./images/construction/underconstructionimg.gif" alt="under construction image" width="300">
     <br>
-    <img src="./images/construction/underconstructiontxt.gif" alt="under construction text gif" width="350">
+    <img src="./images/construction/underconstructiontxt.gif" alt="under construction text gif" width="300">
     <p>Hello! welcome to my net home.</p>
     <p>writing intro is hard. sorry! 😢😭</p>
     <section>
-      <h2 class="sectiontitle">my projects</h2>
-      <table class="projectstable">
+      <h2>my projects</h2>
+      <table>
         <tr>
           <th>name</th>
           <th>links</th>
