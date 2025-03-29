@@ -158,6 +158,16 @@ footer {
   </main>
 
   <footer>
+    <script>
+      var t = setInterval(function() {
+          if (window.goatcounter && window.goatcounter.visit_count) {
+              clearInterval(t)
+              window.goatcounter.visit_count({append: 'body'})
+          }
+      }, 100)
+  </script>
+  <script data-goatcounter="https://bochard.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
     <div style="text-align: left">
       <p># of visitors: </p><script type="text/javascript" src="https://counter.websiteout.com/js/14/7/0/1"></script>
     </div>
@@ -166,7 +176,5 @@ footer {
       <a href="https://web.archive.org/web/20230607005614/http://www.ermel.org/handcoded/"><img src="./images/gifs/badges/handcode.png" width="82" height="33" border="0" alt="100% hand coded HTML"></a>
     </div>
   </footer>
-
-  <script data-goatcounter="https://bochard.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
