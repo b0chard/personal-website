@@ -15,14 +15,14 @@
   <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
-  <?php include '/includes/header.php';?>
+  <?php include './includes/header.php';?>
 
   <main>
     <section style="text-align: center;">
       <img src="/images/construction/underconstructionimg.gif" alt="under construction image" width="300">
       <br>
       <img src="/images/construction/underconstructiontxt.gif" alt="under construction text gif" width="300">
-      <p>Hello! welcome to my net home.</p>
+      <p>Hi! welcome to my net home.</p>
       <p>i have nothing to say yet. writing intro is hard. sorry! 😢😭</p>
     </section>
     <section>
