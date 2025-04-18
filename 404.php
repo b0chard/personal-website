@@ -12,7 +12,7 @@
 </head>
 <body>
   
-  <?php include '/includes/header.php';?>
+  <?php include './includes/header.php';?>
 
   <main>
     <p>There's no such link like that on my site. are you looking for easter eggs?!</p>
@@ -20,7 +20,7 @@
   </main>
   
 
-  <?php include '/include/footer.php';?>
+  <?php include './includes/footer.php';?>
   
 </body>
 </html>
