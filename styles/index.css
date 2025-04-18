@@ -1,0 +1,72 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+html {
+  background-image: url(/images/backgrounds/background1.png);
+  background-position: center;
+}
+body {
+  font-family: serif;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1000px;
+  height: 100%;  
+  background-image: url(/images/backgrounds/background.png);
+  background-repeat: repeat;
+  background-position: center;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  padding: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+header {
+  text-align: center;
+}
+.headernav {
+  margin: auto;
+}
+.headernav > ul {
+  text-align: center;
+}
+.headernav li {
+  font-size: 18px;
+  list-style: none;
+  padding: 2px 4px;
+  width: fit-content;
+  background-color: #dbdbdb;
+  border: 7px outset #000000;
+  border-radius: 8px;
+  text-shadow: 1px 1px #000000;
+  cursor: pointer;
+  display: inline-block;
+}
+section {
+  margin-top: 40px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+table, th, td {
+  border: 1px solid #000000;
+}
+th, td {
+  font-size: 18px;
+  padding: 6px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
