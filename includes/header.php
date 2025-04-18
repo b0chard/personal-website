@@ -6,9 +6,9 @@
   <img src="/images/gifs/homepageburning.gif" alt="under construction text gif" width="300">
   <nav class="headernav">
     <ul>
-      <li><a href="/index.html">home page</a></li>
-      <li><a href="/links.php">useful links</a></li>
-      <li><a href="/sitemap.php">my sitemap</a></li>
+      <li><a href="/index">home page</a></li>
+      <li><a href="/links">useful links</a></li>
+      <li><a href="/sitemap">my sitemap</a></li>
       <li><a href="/files/">files</a></li>
     </ul>
   </nav>
