@@ -1,5 +1,5 @@
 <footer>
-  <div style="text-align: left">z
+  <div style="text-align: left">
     <p># of visitors: </p><script type="text/javascript" src="https://counter.websiteout.com/js/14/7/0/1"></script>
   </div>
   <div style="text-align: right">
