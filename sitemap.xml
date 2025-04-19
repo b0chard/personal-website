@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://tenkyuu.dev/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/index.php</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/links.php</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/sitemap.php</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/files/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=N;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=M;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=S;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=D;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/palindrome-checker/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/roman-numeral-converter/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/temperature-converter/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/tick-clock/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/drum-ka-dum/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=N;O=A</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=M;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=S;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://tenkyuu.dev/projects/simple-cash-register/?C=D;O=D</loc>
+  <lastmod>2025-04-19T04:04:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
