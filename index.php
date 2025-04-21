@@ -27,7 +27,7 @@
     </section>
     <section>
       <h2>my projects</h2>
-      <p>these are my proudly made practice projects, hope u like it!</p>
+      <p>these are my proudly made practice projects, hope you like it!</p>
       <table>
         <tbody>
           <tr>
