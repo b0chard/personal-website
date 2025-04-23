@@ -18,10 +18,11 @@
   <?php include './includes/header.php';?>
 
   <main>
+    <img src="/images/gifs/homepageburning.gif" alt="under construction text gif" width="300">
+
+    <?php include './includes/nav.php';?>
+    
     <section style="text-align: center;">
-      <img src="/images/construction/underconstructionimg.gif" alt="under construction image" width="300">
-      <br>
-      <img src="/images/construction/underconstructiontxt.gif" alt="under construction text gif" width="300">
       <p>Hi! welcome to my net home.</p>
       <p>i have nothing to say yet. writing intro is hard. sorry! 😢😭</p>
     </section>
@@ -29,36 +30,80 @@
       <h2>my projects</h2>
       <p>these are my proudly made practice projects, hope you like it!</p>
       <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th colspan="2">Links</th>
+            <th>Description</th>
+            <th>Creation Date</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
             <td>palindrome checker</td>
-            <td><a href="/projects/palindrome-checker/" target="_blank">click here</a></td>
+            <td>
+              <a href="/projects/palindrome-checker/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/palindrome-checker.git" target="_blank">view code</a>
+            </td>
             <td>this checks if a word inputted by the user is a palindrome (the word looks the same even when backwards!).</td>
+            <td>unknown</td>
           </tr>
           <tr>
             <td>roman numeral converter</td>
-            <td><a href="/projects/roman-numeral-converter/" target="_blank">click here</a></td>
+            <td>
+              <a href="/projects/roman-numeral-converter/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/roman-numeral-converter.git" target="_blank">view code</a>
+            </td>
             <td>you know those X, I, C, M numbering stuffs? ye, this tool converts the numbers into those.</td>
+            <td>unknown</td>
           </tr>
           <tr>
             <td>temperature converter</td>
-            <td><a href="/projects/temperature-converter/" target="_blank">click here</a></td>
+            <td>
+              <a href="/projects/temperature-converter/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/temperature-converter.git" target="_blank">view code</a>
+            </td>
             <td>ive been inspired to create this tool because of our physics class topic about gas laws lol.</td>
+            <td>unknown</td>
           </tr>
           <tr>
             <td>tick clock</td>
-            <td><a href="/projects/tick-clock/" target="_blank">click here</a></td>
+            <td>
+              <a href="/projects/tick-clock/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/tick-clock.git" target="_blank">view code</a>
+            </td>
             <td>nothing much, just a buggy clock made from css, i hate css.</td>
+            <td>unknown</td>
           </tr>
           <tr>
             <td>drum ka dum</td>
-            <td><a href="/projects/drum-ka-dum/" target="_blank">click here</a></td>
+            <td>
+              <a href="/projects/drum-ka-dum/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/drum-ka-dum.git" target="_blank">view code</a>
+            </td>
             <td>drum but using keys from ur keyboard</td>
+            <td>unknown</td>
           </tr>
           <tr>
             <td>simple cash register</td>
-            <td><a href="/projects/simple-cash-register/" target="_blank">click here</a></td>
-            <td>a cash register (idk how to explain, but, as the name explainsa cash register).</td>
+            <td>
+              <a href="/projects/simple-cash-register/" target="_blank">click here</a>
+            </td>
+            <td>
+              <a href="https://github.com/b0chard/simple-cash-register.git" target="_blank">view code</a>
+            </td>
+            <td>a cash register (idk how to explain, but, as the name explains a cash register).</td>
+            <td>unknown</td>
           </tr>
         </tbody>
       </table>
@@ -66,7 +111,7 @@
 
     <section>
       <div style="text-align: center;">
-        <iframe src="https://bochard.atabook.org/" style="width: 95%; height: 600px;"></iframe>
+        <iframe src="https://bochard.atabook.org/" style="width: 100%; height: 700px" frameBorder="0">Your web browser is not compatible to iframe.</iframe>
       </div>
     </section>
   </main>
