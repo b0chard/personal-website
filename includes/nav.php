@@ -1,6 +1,9 @@
-<nav class="headernav">
+<nav style="text-align: center;">
   <a href="/index.php">
     <img src="/images/navigation/homepage.png">
+  </a>
+  <a href="/info.php">
+    <img src="/images/navigation/info.png">
   </a>
   <a href="/links.php">
     <img src="/images/navigation/links.png">

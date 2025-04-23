@@ -12,17 +12,42 @@
   <meta property="og:description" content="I code on paper and create websites out of it.">
   <meta property="og:image" content="/images/">
 
-  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="stylesheet" href="/styles/root.css">
+<style>
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  section {
+    margin-top: 40px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  table, th, td {
+    border: 1px solid #000000;
+  }
+  th, td {
+    font-size: 18px;
+    padding: 6px;
+  }
+</style>
 </head>
 <body>
   <?php include './includes/header.php';?>
 
   <main>
-    <img src="/images/gifs/homepageburning.gif" alt="under construction text gif" width="300">
-
+    <img src="/images/gifs/titles/homepageburning.gif" class="page-title">
     <?php include './includes/nav.php';?>
-    
     <section style="text-align: center;">
+      <h1>You found my net home!</h1>
       <p>Hi! welcome to my net home.</p>
       <p>i have nothing to say yet. writing intro is hard. sorry! 😢😭</p>
     </section>
@@ -117,6 +142,5 @@
   </main>
 
   <?php include './includes/footer.php';?>
-  
 </body>
 </html>

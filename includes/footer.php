@@ -6,5 +6,5 @@
     <a href="http://www.anybrowser.org/campaign/"><img src="./images/gifs/badges/anybrowser.gif" alt="Viewable With Any Browser" /></a>
   </div>
 </footer>
-
+<script src="/scripts/play_audio.js"></script>
 <script data-goatcounter="https://bochard.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
