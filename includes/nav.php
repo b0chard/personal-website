@@ -11,7 +11,7 @@
   <a href="/sitemap.php">
     <img src="/images/navigation/sitemap.png">
   </a>
-  <a href="/files.php">
+  <a href="/files/">
     <img src="/images/navigation/files.png">
   </a>
 </nav>
