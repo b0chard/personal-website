@@ -7,9 +7,9 @@
     <link rel="icon" type="image/ico" href="/images/">
 
   <title>bochard's website</title>
-  <meta name="description" content="i code on paper and create websites out of it.">
-  <meta property="og:title" content="bochard's website">
-  <meta property="og:description" content="i code on paper and create websites out of it.">
+  <meta name="description" content="Welcome to my net home! this website are my space to show my hobbies, thoughts, and other fun stuffs. I am a 17 year old Filipino who learned how to code just by myself. Hope you enjoy visiting my site! :)">
+  <meta property="og:title" content="bochard's net home">
+  <meta property="og:description" content="I code on paper and create websites out of it.">
   <meta property="og:image" content="/images/">
 
   <link rel="stylesheet" href="/styles/index.css">
