@@ -6,7 +6,7 @@
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/ico" href="/images/">
 
-  <title>bochard's website</title>
+  <title>bochard's net home</title>
   <meta name="description" content="Welcome to my net home! this website are my space to show my hobbies, thoughts, and other fun stuffs. I am a 17 year old Filipino who learned how to code just by myself. Hope you enjoy visiting my site! :)">
   <meta property="og:title" content="bochard's net home">
   <meta property="og:description" content="I code on paper and create websites out of it.">
