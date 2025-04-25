@@ -3,7 +3,7 @@
     <p># of visitors: </p><script type="text/javascript" src="https://counter.websiteout.com/js/14/7/0/1"></script>
   </div>
   <div style="text-align: right">
-    <a href="http://www.anybrowser.org/campaign/"><img src="./images/gifs/badges/anybrowser.gif" alt="Viewable With Any Browser" /></a>
+    <a href="http://www.anybrowser.org/campaign/"><img src="/images/gifs/badges/anybrowser.gif" alt="Viewable With Any Browser" /></a>
   </div>
 </footer>
 <script src="/scripts/play_audio.js"></script>

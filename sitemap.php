@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="my website's sitemap">
   <meta name="robots" content="index, follow">
-  <title>sitemap</title>
+  <title>bochard's net sitemap</title>
   <link rel="icon" type="image/ico" href="/images/">
 
   <link rel="stylesheet" href="/styles/root.css">

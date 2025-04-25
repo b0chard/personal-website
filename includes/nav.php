@@ -5,6 +5,9 @@
   <a href="/info.php">
     <img src="/images/navigation/info.png">
   </a>
+  <a href="/projects/">
+    <img src="/images/navigation/projects.png">
+  </a>
   <a href="/links.php">
     <img src="/images/navigation/links.png">
   </a>
