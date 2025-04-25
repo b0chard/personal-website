@@ -1,5 +1,5 @@
 <nav style="text-align: center;">
-  <a href="/index.php">
+  <a href="/">
     <img src="/images/navigation/homepage.png">
   </a>
   <a href="/info.php">

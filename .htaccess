@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.tenkyuu\.dev [NC]
+RewriteRule ^(.*)$ http://tenkyuu.dev/$1 [R=301,L]
