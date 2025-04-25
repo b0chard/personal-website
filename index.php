@@ -100,7 +100,7 @@
           <tr>
             <td>tick clock</td>
             <td>
-              <a href="/projects/tick-clock/" target="_blank">null</a>
+              <p>null</p>
             </td>
             <td>
               <a href="https://github.com/b0chard/tick-clock.git" target="_blank">view code</a>
