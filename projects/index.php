@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="/styles/root.css">
 </head>
 <body>
-  <?php include '../includes/header.php';?>
+  <?php include '/includes/header.php';?>
 
   <main>
     <img src="/images/gifs/titles/projectspageburning.gif" class="page-title">
-    <?php include './includes/nav.php';?>
+    <?php include '/includes/nav.php';?>
     <section style="text-align: center;">
       <h1>My projects' list</h1>
       <p>below are some of the coding projects I made, some of them are left unfinished.</p>
