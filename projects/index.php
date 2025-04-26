@@ -26,6 +26,8 @@
       <p>below are some of the coding projects I made, some of them are left unfinished.</p>
     </section>
     <section>
+      <h2>self-learn</h2>
+      <p>these ones are made for learning purpose.</p>
       <ul>
         <li>
           <a href="./palindrome-checker">palindrome checker</a>
@@ -46,6 +48,16 @@
         <li>
           <a href="./drum-ka-dum">drum ka dum!</a>
           <p>not that much, just a basic drum that uses a keyboard.</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>work related</h2>
+      <p>websites I created for my clients.</p>
+      <ul>
+        <li>
+          <a href="https://mohsinsolutions.com">Mohsin Business Solutions</a>
+          <p>a simple landing page for Mohsin.</p>
         </li>
       </ul>
     </section>
