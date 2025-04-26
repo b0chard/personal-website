@@ -30,8 +30,9 @@ footer {
 a {
   text-decoration: none;
 }
-
-
 .page-title {
+  display: block;
+  margin: auto;
   width: 100%;
+  max-width: 500px;
 }

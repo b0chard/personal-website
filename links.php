@@ -25,6 +25,9 @@
       <h1>Some useful links.</h1>
       <p>Sorry, nothing to see here yet :&lt;</p>
     </section>
+    <section>
+      <?php include_once($path . '/under_construction.php');?>
+    </section>
   </main>
 
   <?php include_once($path . '/footer.php');?>
