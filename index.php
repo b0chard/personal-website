@@ -1,3 +1,8 @@
+<?php
+  $path = $_SERVER['DOCUMENT_ROOT'];
+  $path .= '/includes';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,11 +46,11 @@
 </style>
 </head>
 <body>
-  <?php include './includes/header.php';?>
+<?php include_once($path . '/header.php');?>
 
   <main>
     <img src="/images/gifs/titles/homepageburning.gif" class="page-title">
-    <?php include './includes/nav.php';?>
+    <?php include_once($path . '/nav.php');?>
     <section style="text-align: center;">
       <h1>You found my net home!</h1>
       <p>Hi! welcome to my net home.</p>
@@ -141,6 +146,6 @@
     </section>
   </main>
 
-  <?php include './includes/footer.php';?>
+  <?php include_once($path . '/footer.php');?>
 </body>
 </html>

@@ -1,3 +1,8 @@
+<?php
+  $path = $_SERVER['DOCUMENT_ROOT'];
+  $path .= '/includes';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +16,17 @@
   <link rel="stylesheet" href="/styles/root.css">
 </head>
 <body>
-  <?php include './includes/header.php';?>
+  <?php include_once($path . '/header.php');?>
 
   <main>
     <img src="/images/gifs/titles/sitemappageburning.gif" class="page-title">
-    <?php include './includes/nav.php';?>
+    <?php include_once($path . '/nav.php');?>
     <section style="text-align: center;">
       <h1>All paths to my site.</h1>
       <p>Sorry, nothing to see here yet :&lt;</p>
     </section>
   </main>
 
-  <?php include './includes/footer.php';?>
+  <?php include_once($path . '/footer.php');?>
 </body>
 </html>
