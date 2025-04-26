@@ -72,10 +72,10 @@
           <tr>
             <td>palindrome checker</td>
             <td>
-              <a href="/projects/palindrome-checker/" target="_blank">click here</a>
+              <a href="/projects/palindrome-checker/">click here</a>
             </td>
             <td>
-              <a href="https://github.com/b0chard/palindrome-checker.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/palindrome-checker.git">view code</a>
             </td>
             <td>this checks if a word inputted by the user is a palindrome (the word looks the same even when backwards!).</td>
             <td>unknown</td>
@@ -83,10 +83,10 @@
           <tr>
             <td>roman numeral converter</td>
             <td>
-              <a href="/projects/roman-numeral-converter/" target="_blank">click here</a>
+              <a href="/projects/roman-numeral-converter/">click here</a>
             </td>
             <td>
-              <a href="https://github.com/b0chard/roman-numeral-converter.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/roman-numeral-converter.git">view code</a>
             </td>
             <td>you know those X, I, C, M numbering stuffs? ye, this tool converts the numbers into those.</td>
             <td>unknown</td>
@@ -94,10 +94,10 @@
           <tr>
             <td>temperature converter</td>
             <td>
-              <a href="/projects/temperature-converter/" target="_blank">click here</a>
+              <a href="/projects/temperature-converter/">click here</a>
             </td>
             <td>
-              <a href="https://github.com/b0chard/temperature-converter.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/temperature-converter.git">view code</a>
             </td>
             <td>ive been inspired to create this tool because of our physics class topic about gas laws lol.</td>
             <td>unknown</td>
@@ -108,7 +108,7 @@
               <p>null</p>
             </td>
             <td>
-              <a href="https://github.com/b0chard/tick-clock.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/tick-clock.git">view code</a>
             </td>
             <td>nothing much, just a buggy clock made from css, i hate css.</td>
             <td>unknown</td>
@@ -116,10 +116,10 @@
           <tr>
             <td>drum ka dum</td>
             <td>
-              <a href="/projects/drum-ka-dum/" target="_blank">click here</a>
+              <a href="/projects/drum-ka-dum/">click here</a>
             </td>
             <td>
-              <a href="https://github.com/b0chard/drum-ka-dum.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/drum-ka-dum.git">view code</a>
             </td>
             <td>drum but using keys from ur keyboard</td>
             <td>unknown</td>
@@ -127,10 +127,10 @@
           <tr>
             <td>simple cash register</td>
             <td>
-              <a href="/projects/simple-cash-register/" target="_blank">click here</a>
+              <a href="/projects/simple-cash-register/">click here</a>
             </td>
             <td>
-              <a href="https://github.com/b0chard/simple-cash-register.git" target="_blank">view code</a>
+              <a href="https://github.com/b0chard/simple-cash-register.git">view code</a>
             </td>
             <td>a cash register (idk how to explain, but, as the name explains a cash register).</td>
             <td>unknown</td>
