@@ -6,3 +6,5 @@ RewriteRule ^(.*)$ http://tenkyuu.dev/$1 [R=301,L]
 
 #error pages
 ErrorDocument 404 /error_docs/404.html
+ErrorDocument 403 /error_docs/403.html
+ErrorDocument 500 /error_docs/500.html
