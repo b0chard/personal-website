@@ -5,4 +5,4 @@ RewriteCond %{HTTP_HOST} ^www\.tenkyuu\.dev [NC]
 RewriteRule ^(.*)$ http://tenkyuu.dev/$1 [R=301,L]
 
 #error pages
-ErrorDocument 404 /error_docs/not_found.html
+ErrorDocument 404 /error_docs/404.html
