@@ -2,7 +2,6 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $path .= '/includes';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

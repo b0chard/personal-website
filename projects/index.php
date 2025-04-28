@@ -2,7 +2,6 @@
   $path = $_SERVER['DOCUMENT_ROOT'];
   $path .= '/includes';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +15,11 @@
   <link rel="stylesheet" href="/styles/root.css">
 </head>
 <body>
-  <?php include_once ($path . '/header.php');?>
+  <?php include_once($path . '/header.php');?>
 
   <main>
     <img src="/images/gifs/titles/projectspageburning.gif" class="page-title">
-    <?php include_once ($path . '/nav.php');?>
+    <?php include_once($path . '/nav.php');?>
     <section style="text-align: center;">
       <h1>My projects' list</h1>
       <p>below are some of the coding projects I made, some of them are left unfinished.</p>
@@ -63,6 +62,6 @@
     </section>
   </main>
 
-  <?php include_once ($path . '/footer.php');?>
+  <?php include_once($path . '/footer.php');?>
 </body>
 </html>
