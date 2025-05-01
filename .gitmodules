@@ -13,3 +13,6 @@
 [submodule "projects/simple-cash-register"]
 	path = projects/simple-cash-register
 	url = https://github.com/b0chard/simple-cash-register.git
+[submodule "memories/maia-18th-bday"]
+	path = memories/maia-18th-bday
+	url = https://github.com/b0chard/happy-18th-birthday-maia.git
