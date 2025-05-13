@@ -42,11 +42,15 @@
         </li>
         <li>
           <a href="./simple-cash-register">temperature converter</a>
-          <p>you know what's a cash register, right? riGhHT?! RIGHTTT!!?</p>
+          <p>a cash register, the one you commonly see on malls and konbini.</p>
         </li>
         <li>
           <a href="./drum-ka-dum">drum ka dum!</a>
-          <p>not that much, just a basic drum that uses a keyboard.</p>
+          <p>not that much, just a basic drum that uses a keyboard. (only works when you have keyboard)</p>
+        </li>
+        <li>
+          <a href="./basic-calc">basic calc</a>
+          <p>simple calculator. pls don't compare on ur phone calculator. i know, it's far from it xd.</p>
         </li>
       </ul>
     </section>
