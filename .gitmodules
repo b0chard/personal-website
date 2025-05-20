@@ -19,3 +19,6 @@
 [submodule "projects/basic-calc"]
 	path = projects/basic-calc
 	url = https://github.com/b0chard/basic-calc.git
+[submodule "projects/signup-login-system"]
+	path = projects/signup-login-system
+	url = https://github.com/b0chard/signup-login-system.git
