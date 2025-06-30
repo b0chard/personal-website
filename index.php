@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/stylesheets/root.css">
 </head>
 <body>    
-  <table> 
+  <table>
     <tr>
       <?php include_once($parts . '/sidebar.php');?>
       

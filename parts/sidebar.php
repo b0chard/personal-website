@@ -4,22 +4,27 @@
   <img src="/images/gifs/doraemon.gif" alt="doraemon welcoming you to my site" height="100">
   <img src="/images/gifs/doraemon.gif" alt="doraemon welcoming you to my site" height="100">
   <img src="/images/gifs/welcomemovetree.gif" alt="welcome hanging on two trees" width="100%">
-  <p><strong>Site Menu</strong></p>
+  <hr>
+  <strong>Site menu</strong>
   <ul>  
     <li><a href="/">homepage</a></li>
     <li><a href="/about-me.php">about me...</a></li>
+    <li><a href="/diary.php">my diary</a></li>
+    <li><a href="/poems.php">short poems</a></li>
+    <li><a href="/works">stuffs i made</a></li>
     <li><a href="/files">my files</a></li>
     <li><a href="mailto:mail@tenkyuu.dev">email me!</a></li>
   </ul>
-  <p><strong>Stuffs I Made</strong></p>
+  <strong>Stuff I made</strong>
   <ul>  
     <li><a href="https://questlog.tenkyuu.dev">QuestLog</a></li>
     <li><a href="/works/temperature-converter">temperature converter</a></li>
     <li><a href="/works/roman-numeral-converter">roman numeral converter</a></li>
     <li><a href="/works/palindrome-checker">palindrome checker</a></li>
-    <li><a href="/works">check all here...</a></li>
-  </ul> 
-  
+    <li><a href="/works">more here...</a></li>
+  </ul>
+  <hr>
+  <?php include_once($parts . '/scribbles.php');?>
   <hr>
   <!-- cute badges and other cool things goes here -->
     <!-- hitwebcounter Code START -->
