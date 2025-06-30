@@ -1,6 +1,5 @@
 <?php
-  $path = $_SERVER['DOCUMENT_ROOT'];
-  $path .= '/includes';
+  $parts = $_SERVER['DOCUMENT_ROOT'] . '/parts';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,87 +11,26 @@
   <title>bochard's net home</title>
   <meta name="description" content="Welcome to my net home! this website are my space to show my hobbies, thoughts, and other fun stuffs. I am an 18 years old who learned how to code just by myself. Hope you enjoy visiting my site! :)">
 
-<!-- some styles, i want to keep the site simple. -->
-  <link rel="stylesheet" href="/styles/root.css">
-<style>
-html, body {
-  height: 100%;
-  width: 100%;
-}
-body {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  margin: 0 auto;
-}
-table {
-  height: 100%;
-  width: 100%;
-}
-.sidebar {
-  background-image: url(./images/backgrounds/backgroundclouds.gif);
-  background-repeat: repeat-y;
-  vertical-align: top;
-  height: 100%;
-  width: 120px;
-  padding: 15px 10px;
-}
-.sidebar > ul {
-  margin-top: 0;
-  padding-left: 20px;
-}
-.sidebar p {
-  margin-bottom: 5px;
-}
-.sidebar a {
-  color: inherit;
-}
-.sidebar-footer {
-  width: 10px;
-}
-.body {
-  vertical-align: top;
-  padding-left: 15px;
-}
-.content-wrap {
-  width: 700px;
-  padding: 0 10px;
-}
-</style>
+  <!-- stylesheet/s i use -->
+  <link rel="stylesheet" href="/stylesheets/root.css">
 </head>
 <body>    
   <table> 
     <tr>
-      <!-- this is for the sidebar -->
-      <td class="sidebar">
-        <p><strong>Site Menu</strong></p>
-        <ul>  
-          <li><a href="/">home</a></li>
-          <li><a href="./about-me.php">about bochard</a></li>
-          <li><a href="./files">my files</a></li>
-          <li><a href="mailto:mail@tenkyuu.dev">email me</a></li>
-        </ul>
-        <p><strong>Stuffs I Made</strong></p>
-        <ul>  
-          <li><a href="https://questlog.tenkyuu.dev">QuestLog</a></li>
-          <li><a href="./projects/temperature-converter">temperature converter</a></li>
-          <li><a href="./projects/roman-numeral-converter">roman numeral converter</a></li>
-          <li><a href="./projects/palindrome-checker">palindrome checker</a></li>
-          <li><a href="./projects">check all here...</a></li>
-        </ul> 
-        
-        <hr>
-        <!-- cute badges and other cool things goes here -->
-          <!-- hitwebcounter Code START -->
-          <a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=20998791&style=0019&nbdigits=5&type=ip&initCount=231" title="Counter Widget" Alt="Visit counter For Websites" border="0" width="100"></a>
-        <a href="http://www.anybrowser.org/campaign/"><img src="./images/gifs/badges/anybrowser.gif" alt="Viewable With Any Browser" width="100"></a>
-        <img src="./images/gifs/badges/handcode.png" alt="completely hand-coded" width="100">
-        <img src="./images/gifs/badges/mullvad.avif" alt="hand coded" width="100">
-      </td>
+      <?php include_once($parts . '/sidebar.php');?>
       
       <!-- ...and this is for the content -->
-      <td class="body">
-        <div class="content-wrap">
-          <h1>welcome to bochard's net home!'</h1>
-          <p>i don't really have much to say. but try to explore the site. it is not big but, i like it. it is my corner of the internet. here you can see what i do, some fun things, and my thoughts to certain topics. hope you'll have fun! :&rpar;</p>
+      <td id="body">
+        <h1>welcome to bochard's net home!</h1>
+        <p>i don't really have much to say. but try to explore the site. it is not big but, i like it. it is my corner of the internet. here you can see what i usually do, some fun things, and my thoughts to certain topics. hope you'll have some fun! :&rpar;</p>
+        <hr>
+        <p>If you want to continue viewing my site. Please consider disabling your adblocker. some cool stuffs cannot be seen if you enable that thing. tnx. and...if you got lost for some reason. just go the homepage!</p>
+        
+        <div style="width: 300px;">
+          <script async src="https://cse.google.com/cse.js?cx=41bb325316c57447c">
+          </script>
+          <b>Search my site here...</b>
+          <div class="gcse-search"></div>
         </div>
       </td>
     </tr>
