@@ -1,5 +1,9 @@
 <!-- this is for the sidebar -->
 <td id="sidebar">
+  <img src="/images/gifs/doraemon.gif" alt="doraemon welcoming you to my site" height="100">
+  <img src="/images/gifs/doraemon.gif" alt="doraemon welcoming you to my site" height="100">
+  <img src="/images/gifs/doraemon.gif" alt="doraemon welcoming you to my site" height="100">
+  <img src="/images/gifs/welcomemovetree.gif" alt="welcome hanging on two trees" width="100%">
   <p><strong>Site Menu</strong></p>
   <ul>  
     <li><a href="/">homepage</a></li>
@@ -23,4 +27,12 @@
   <a href="http://www.anybrowser.org/campaign/"><img src="./images/gifs/badges/anybrowser.gif" alt="Viewable With Any Browser" width="100"></a>
   <img src="/images/gifs/badges/handcode.png" alt="completely hand-coded" width="100">
   <img src="/images/gifs/badges/mullvad.avif" alt="free the internet" width="100">
+
+  <!-- cse by google -->
+  <div style="width: 200px;">
+    <script async src="https://cse.google.com/cse.js?cx=41bb325316c57447c">
+    </script>
+    <b>Search my site here...</b>
+    <div class="gcse-search"></div>
+  </div>
 </td>

@@ -21,17 +21,11 @@
       
       <!-- ...and this is for the content -->
       <td id="body">
+        <img src="/images/gifs/bulblights.gif" alt="bulb lights" width="100%">
         <h1>welcome to bochard's net home!</h1>
         <p>i don't really have much to say. but try to explore the site. it is not big but, i like it. it is my corner of the internet. here you can see what i usually do, some fun things, and my thoughts to certain topics. hope you'll have some fun! :&rpar;</p>
         <hr>
         <p>If you want to continue viewing my site. Please consider disabling your adblocker. some cool stuffs cannot be seen if you enable that thing. tnx. and...if you got lost for some reason. just go the homepage!</p>
-        
-        <div style="width: 300px;">
-          <script async src="https://cse.google.com/cse.js?cx=41bb325316c57447c">
-          </script>
-          <b>Search my site here...</b>
-          <div class="gcse-search"></div>
-        </div>
       </td>
     </tr>
   </table>
