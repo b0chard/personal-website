@@ -29,8 +29,5 @@
       </td>
     </tr>
   </table>
-  
-  <!-- site meter for people who found this place -->
-  <script data-goatcounter="https://bochard.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

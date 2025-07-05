@@ -20,7 +20,7 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tenkyuu.dev/sitemap.xml
+Sitemap: https://bochard.net/sitemap.xml
 
 #              ________
 #   __,_,     |        |

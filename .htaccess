@@ -1,5 +1,5 @@
 RewriteEngine On
 
 #Redirect root to www
-RewriteCond %{HTTP_HOST} ^tenkyuu\.dev [NC]
-RewriteRule ^(.*)$ http://www.tenkyuu.dev/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^bochard\.net [NC]
+RewriteRule ^(.*)$ http://www.bochard.net/$1 [R=301,L]

@@ -1,3 +1,2 @@
-# tenkyuu.dev
-#### My personal website: https://tenkyuu.dev/
-List of all my projects, and some stuffs.
+#### My personal site: www.bochard.net
+wonderful things in here (at least, for me.)
