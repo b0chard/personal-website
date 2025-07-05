@@ -4,6 +4,15 @@ declare -A submodules=(
   ['roman-numeral-converter']='git@github.com:b0chard/roman-numeral-converter.git'
   ['palindrome-checker']='git@github.com:b0chard/palindrome-checker.git'
   ['temperature-converter']='git@github.com:b0chard/temperature-converter.git'
+  ['drum-ka-dum']='git@github.com:b0chard/drum-ka-dum.git'
+  ['tick-clock']='git@github.com:b0chard/tick-clock.git'
+  ['simple-cash-register']='git@github.com:b0chard/simple-cash-register.git'
+  ['circle']='git@github.com:b0chard/circle.git'
+  ['basic-calc']='git@github.com:b0chard/basic-calc.git'
+  ['signup-login-system']='git@github.com:b0chard/signup-login-system.git'
+  ['number-guessing-game-in-c']='git@github.com:b0chard/number-guessing-game-in-c.git'
+  ['rock-paper-scissors-in-c']='git@github.com:b0chard/rock-paper-scissors-in-c.git'
+  ['atm-program-in-c']='git@github.com:b0chard/atm-program-in-c.git'
 )
 
 tmpBase='works-tmp'
