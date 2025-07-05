@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="customer-input-ctn">
+      <label for="cash">Enter your cash here:</label>
+      <input type="number" id="cash" min="0">
+      <button id="purchase-btn">Purchase</button>
+    </div>
+    
+    <div class="cash-register">
+      <div class="cash-register-screen">
+        <div class="price-indicator">Total: <span id="total-price">$0.00</span></div>
+        <div class="change-indicator">Change: <span id="change-due">$0.00</span></div>
+      </div>
+
+      <div id="product-list" class="product-list">
+        <div class="product-wrapper">
+          <p class="product-name">Water Bottle <span class="price-tag">$1.00</span></p>
+          <div class="quantity-controls">
+            <button class="minus-btn">-</button>
+            <p class="product-quantity">0</p>
+            <button class="plus-btn">+</button>
+          </div>
+        </div>
+        <div class="product-wrapper">
+          <p class="product-name">Bread <span class="price-tag">$2.50</span></p>
+          <div class="quantity-controls">
+            <button class="minus-btn">-</button>
+            <p class="product-quantity">0</p>
+            <button class="plus-btn">+</button>
+          </div>
+        </div>
+        <div class="product-wrapper">
+          <p class="product-name">Coffee <span class="price-tag">$1.50</span></p>
+          <div class="quantity-controls">
+            <button class="minus-btn">-</button>
+            <p class="product-quantity">0</p>
+            <button class="plus-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="change-drawer"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

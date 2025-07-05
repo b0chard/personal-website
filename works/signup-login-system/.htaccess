@@ -1,0 +1,14 @@
+# Deny access to .env file
+<Files .env>
+  Order allow,deny
+  Deny from all
+</Files>
+
+# Deny access to composer files
+<Files "^composer\.(json|lock)$">
+  Order allow,deny
+  Deny from all
+</Files>
+
+# Deny access to vendor directory
+RedirectMatch 403 ^/vendor/
