@@ -22,3 +22,12 @@
 [submodule "projects/signup-login-system"]
 	path = projects/signup-login-system
 	url = https://github.com/b0chard/signup-login-system.git
+[submodule "works-tmp/temperature-converter"]
+	path = works-tmp/temperature-converter
+	url = git@github.com:b0chard/temperature-converter.git
+[submodule "works-tmp/roman-numeral-converter"]
+	path = works-tmp/roman-numeral-converter
+	url = git@github.com:b0chard/roman-numeral-converter.git
+[submodule "works-tmp/palindrome-checker"]
+	path = works-tmp/palindrome-checker
+	url = git@github.com:b0chard/palindrome-checker.git

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="ametoresu">
+  <meta name="description" content="converts temperatures from Celcius, Fahrenheit, and Kelvin.">
+  <meta name="robots" content="index, follow">
+  <title>Temperature Converter</title>
+  <link rel="icon" type="image/ico" href="/assets/icons/favicon.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Temperature Converter">
+  <meta property="og:description" content="a web application that converts temperatures on various units.">
+  <meta property="og:image" content="/assets/pfp/profile.jpg">
+  <meta property="og:url" content="https://tenkyuu.dev">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <header></header>
+  <main>
+    <div class="summary">
+      <h1 class="app-title">Temperature Converter</h1>
+      <p class="app-description">This web application allows users to convert temperatures between various units, including Celsius, Fahrenheit, and Kelvin. It provides a straightforward interface for quick and accurate conversions.</p>
+    </div>
+    <div class="converter-ctn">
+      <div class="convert-fr-to-txt">Convert <span id="convertFromTxt"></span> to <span id="convertToTxt"></span></div>
+      <div class="convertion-wrapper">
+        <div class="selection-wrapper">
+          <select name="tempUnitFrom" id="tempUnitFrom">
+            <option value="Celcius" selected>&deg;C</option>
+            <option value="Fahrenheit">&deg;F</option>
+            <option value="Kelvin">K</option>
+          </select>
+          <select name="tempUnitTo" id="tempUnitTo">
+            <option value="Celcius">&deg;C</option>
+            <option value="Fahrenheit" selected>&deg;F</option>
+            <option value="Kelvin">K</option>
+          </select>
+        </div>
+        <input type="text" name="userInput" id="userInput" onkeyup="calculate(this.value)">
+      </div>
+    </div>
+    <div id="result">0&deg;C &equals; 32.00&deg;F</div>
+    <hr>
+    <div id="solution"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

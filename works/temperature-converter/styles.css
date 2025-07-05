@@ -1,0 +1,70 @@
+:root {
+  --mobile-txt-sml: 2rem;
+  --mobile-txt-mdm: 3rem;
+  --mobile-txt-lrg: 4rem;
+  --box-shadow: 0rem 0.2rem 0.8rem #00000025;
+  --button: #0031a2;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+.app-title {
+  font-size: var(--mobile-txt-lrg);
+}
+.app-description {
+  font-size: var(--mobile-txt-sml);
+}
+.converter-ctn {
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  margin-top: 1.4rem;
+}
+.convert-fr-to-txt {
+  font-size: var(--mobile-txt-sml);
+}
+.convertion-wrapper {
+  white-space: nowrap;
+}
+.selection-wrapper {
+  border: none;
+  display: block;
+  margin-top: 0.4rem;
+}
+select {
+  font-size: var(--mobile-txt-sml);
+  padding: 1rem;
+  width: 50%;
+  background-color: lightblue;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  box-shadow: var(--box-shadow);
+}
+input {
+  font-size: var(--mobile-txt-sml);
+  padding: 1rem;
+  margin-top: 0.4rem;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+}
+#result {
+  font-size: var(--mobile-txt-mdm);
+  text-align: center;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 1240px) {
+  main {
+    width: 50%;
+  }
+}

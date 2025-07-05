@@ -1,0 +1,101 @@
+:root {
+  --title-font: "Metamorphous", serif;
+  --text-font: "Crimson Text", serif;
+  --border: none;
+  --big-text: 3.4rem;
+  --medium-text: 2rem;
+  --small-text: 1.5rem;
+  --button-text-color: #fff;
+  --button-color: #0031a2;
+  --button-hover-opacity: 0.9;
+  --output-text-color: #fff;
+  --output-bg: #0031a2;
+  --invalid-text-color: #fff;
+  --invalid-bg: #cb0000;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--text-font);
+}
+main {
+  width: 95%;
+  max-width: 1080px;
+  margin: 2rem auto;
+}
+.title {
+  font-family: var(--title-font);
+  font-size: var(--big-text);
+}
+.info {
+  margin-top: 1.2rem;
+  font-size: var(--medium-text);
+}
+.strong {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.rounded {
+  border-radius: 0.3rem;
+}
+.hidden {
+  display: none;
+}
+.converter-ctn,
+.output,
+.output-invalid {
+  box-shadow: 0rem 0.2rem 0.8rem #00000025;
+  padding: 2rem 3rem;
+  margin-top: 1.4rem;
+}
+form {
+  white-space: nowrap;
+}
+input,
+button {
+  font-size: var(--small-text);
+}
+label {
+  display: block;
+  font-size: var(--medium-text);
+}
+input {
+  display: inline-block;
+  width: 70%;
+  padding: 0.5rem;
+}
+button {
+  display: inline-block;
+  width: 30%;
+  color: var(--button-text-color);
+  background-color: var(--button-color);
+  border: none;
+  padding: 0.7rem;
+}
+button:hover, button:focus {
+  opacity: var(--button-hover-opacity);
+}
+.output,
+.invalid {
+  font-size: var(--medium-text);
+  text-align: center;
+  border: 0.1rem solid #000;
+}
+.output {
+  color: var(--output-text-color);
+  background-color: var(--output-bg);
+}
+.invalid {
+  color: var(--invalid-text-color);
+  background-color: var(--invalid-bg);
+}

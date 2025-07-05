@@ -1,0 +1,118 @@
+:root {
+  --border-color: #171717;
+  --box-shadow: #171717;
+  --main-font: 'Pangolin', serif;
+  --bg-color: #f1f1f1;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgb(192, 192, 192) 1px, transparent 1px), linear-gradient(to bottom, rgb(192, 192, 192) 1px, transparent 1px);
+}
+main {
+  width: 80vw;
+  position: relative;
+  top: -10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  margin: 2rem;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+h1:hover, h1:focus {
+  transform: translateY(-7px);
+}
+.palindrome-ctn {
+  font-family: var(--main-font);
+  text-align: center;
+  width: 100%;
+  max-width: 70rem;
+  padding: 2rem 4rem;
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.3rem;
+  transition: 0.5s ease-in-out;
+  background-color: var(--bg-color);
+}
+.guide-txt {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.input-ctn {
+  display: flex;
+  gap: 0.5rem;
+}
+#text-input {
+  font-family: var(--main-font);
+  font-size: 2rem;
+  padding: 0.7rem;
+  width: 70%;
+  height: 4rem;
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.3rem;
+}
+#check-btn {
+  font-family: var(--main-font);
+  width: 30%;
+  height: 4rem;
+  font-size: 2rem;
+  padding: 0.7rem;
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.3rem;
+}
+#result {
+  background-color: #e7e7e7;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.2rem solid var(--border-color);
+  border-radius: 1rem;
+  visibility: hidden;
+  font-size: 2rem;
+}
+#result.visible {
+  visibility: visible;
+  height: 3rem;
+}
+.info {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 70rem;
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.3rem;
+  transition: 0.5s ease-in-out;
+  background-color: var(--bg-color);
+}
+h2 {
+  font-family: var(--main-font);
+  font-size: 2.4rem;
+  margin-bottom: 0.7rem;
+}
+.description {
+  font-family: var(--main-font);
+  font-size: 1.7rem;
+}
+input:is(:hover, :active, :focus).palindrome-ctn,
+.palindrome-ctn:is(:hover, :active, :focus),
+.info:is(:hover, :active, :focus) {
+  box-shadow: 0.7rem 0.7rem 0.3rem 0 var(--box-shadow);
+  transform: translateY(-7px);
+}
